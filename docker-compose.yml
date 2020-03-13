@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  netcat:
+    build:
+      context: .
+    environment:
+      STATSD_HOST: 0.0.0.0
+      STATSD_PORT: 8125
+    ports: ['8125:8125/udp']
