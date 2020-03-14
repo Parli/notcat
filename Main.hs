@@ -1,14 +1,3 @@
-#!/usr/bin/env stack
-{- stack
-  script
-  --nix
-  --resolver lts-13.29
-  --package udp-streaming
-  --package streaming
-  --package resourcet
-  --package bytestring
--}
-{-# LANGUAGE OverloadedStrings, ScopedTypeVariables #-}
 import qualified Streaming.Prelude as S
 import Streaming.UDP
 import Control.Monad.Trans.Resource

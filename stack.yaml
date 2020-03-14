@@ -1,0 +1,7 @@
+resolver: lts-14.27
+
+extra-deps:
+  - udp-streaming-0.2.0.0@sha256:37c3815a4075991131eb16367a524e0661480e54789cef2eb3f5641e92d81c80,1066
+
+nix:
+  enable: true
